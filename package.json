@@ -1,7 +1,7 @@
 {
-  "name": "oopjs",
+  "name": "sw_oopjs-test",
   "version": "1.0.0",
-  "description": "",
+  "description": "Laboratorio 1.2",
   "main": "index.js",
   "scripts": {
     "test": "jest"
@@ -17,5 +17,17 @@
   "jest": {
     "testRegex": "(/tests/.*|(\\.|/)(test|spec))\\.js$"
   },
-  "type": "module"
+  "type": "module",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xabigar/SW_oopjs-test.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/xabigar/SW_oopjs-test/issues"
+  },
+  "homepage": "https://github.com/xabigar/SW_oopjs-test#readme"
 }
