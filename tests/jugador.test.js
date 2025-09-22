@@ -1,6 +1,6 @@
 import { Jugador } from '../js/jugador.js';
 
-test('debería inicializar correctamente una instancia de Jugador y obtener su nombre', () => {
+test('debería inicializar correctamente una instancia de Jugador y obtener su nombren', () => {
     const jugador = new Jugador('Juan', 10, 100);
     expect(jugador.nombre).toBe('Juan');
     // Se pueden añadir más comprobaciones para las otras propiedades
