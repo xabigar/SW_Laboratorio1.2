@@ -12,13 +12,13 @@ const shuffleArray = array => {
 }
 
 // Inicializar un único array con 50 maquinas, 50 humanos y 50 extraterrestres
-
+let campo = []
 
 // Ordenar los elementos del array al azar
 
 
 // Imprimir el campo
-
+console.log(campo)
 // Para ir imprimiendo los turnos
 let turno =1
 
@@ -31,4 +31,4 @@ let turno =1
     turno++
 
 // Imprimir campeón. Unico elemento que queda en el array
-
+console.log("Campeón: " + campo[0].nombre) 
